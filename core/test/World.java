@@ -20,8 +20,8 @@ import static core.generation.WallGenerator.generateWalls;
 
 public class World {
 
-    private static final int WIDTH = 90;
-    private static final int HEIGHT = 50;
+    private static final int WIDTH = 60;
+    private static final int HEIGHT = 30;
     private static final long SEED = 287312;
     private static final Random RANDOM = new Random(SEED);
     public static TETile[][] world = new TETile[WIDTH][HEIGHT];
@@ -105,7 +105,7 @@ public class World {
 
     // For tests only
     public static void main(String[] args) {
-        Menu menu = new Menu(90, 50);
+        Menu menu = new Menu(60, 30);
         menu.startGame();
     }
 }

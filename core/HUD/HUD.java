@@ -7,8 +7,8 @@ import tileengine.TETile;
 import java.awt.*;
 
 public class HUD {
-    private static final int WIDTH = 90;
-    private static final int HEIGHT = 50;
+    private static final int WIDTH = 60;
+    private static final int HEIGHT = 30;
     private static final int HUD_BAR_HEIGHT = 2;
 
     public static void init() {
