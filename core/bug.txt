@@ -1,0 +1,6 @@
+founded bug:
+1. enemy disappear when character step on it // solved
+2. reduce HP slower
+3. default enemy is Water
+4. EnemyFeature, clearEnemy should set to .Floor
+5. HP reset when enter previous game // solved
